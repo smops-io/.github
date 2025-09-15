@@ -1,0 +1,14 @@
+---
+name: "✨ Feature"
+description: Create a new ticket for a new feature
+title: "[FEATURE] - <title>"
+labels: ["feature", "status: needs triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: Provide a brief explanation of the feature
+      placeholder: Describe in a few lines your feature
+    validations:
+      required: true
