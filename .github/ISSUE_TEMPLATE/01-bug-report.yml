@@ -1,8 +1,8 @@
 ---
-name: Bug Report
+name: 🐛 Bug Report
 description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: "🐛 [BUG] - <title>"
+labels: ["bug", "status: needs triage"]
 body:
   - type: markdown
     attributes:
